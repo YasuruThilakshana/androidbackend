@@ -1,6 +1,6 @@
 FROM tomcat:9-jdk11
 
-COPY StripeBackend.war /usr/local/tomcat/webapps/
+COPY androidbackend.war /usr/local/tomcat/webapps/
 
 ENV PORT 8080
 
